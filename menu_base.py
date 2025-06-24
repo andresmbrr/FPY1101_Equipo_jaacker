@@ -1,4 +1,5 @@
-
+def datos_andres():
+   print("Mi nombre es Andres y tengo 20 años.")
 
 
 
@@ -14,7 +15,8 @@ while True:
     if op == "0":
             print("Programa finalizado.")
             break
-    elif op == "1":
+    elif op == "1": 
+        datos_andres()
         pass # Aquí se llamará a la función del integrante 1
     elif op == "2":
         pass # Aquí se llamará a la función del integrante 2
